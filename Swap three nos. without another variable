@@ -1,0 +1,19 @@
+
+  
+#include<iostream>
+using namespace std;
+
+int main(){
+int a,b,c;
+cout<<"Enter three nos."<<endl;
+cin>>a>>b>>c; //let input is a=2, b=3 ,c=4
+a=a+b+c; //a=9
+b=a-(b+c); //b=2
+c=a-(b+c); //c=3
+a=a-(b+c); //a=4
+cout<<"a="<<a<<" b="<<b<<" c="<<c;
+return 0;
+}
+
+
+
